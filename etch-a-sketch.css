@@ -33,11 +33,6 @@ body {
     margin-bottom: 30px;
 }
 
-.canvas {
-    height: 100%;
-    width: 100%;
-}
-
 #clear-button {
     width: 100px;
     height: 50px;

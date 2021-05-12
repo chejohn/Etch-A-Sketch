@@ -31,8 +31,11 @@ function drawGrid(rows, cols) {
     }
 }
 
-function refreshPage() {
-    window.location.reload();
+function clearGrid() {
+    allCells.forEach((cell) => {
+        cell.style.setProperty('background-color', 'transparent');
+        cell.hoverCount = 0;
+    })
 }
 
 // returns: user number if input <= 100
@@ -58,4 +61,4 @@ allCells.forEach((cell) => {
 })
 
 const button = document.getElementById('clear-button');
-button.addEventListener('click', refreshPage);
+button.addEventListener('click', clearGrid);
