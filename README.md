@@ -10,6 +10,6 @@ Once a board size is chosen, howver over the board with your cursor to change ce
 * Data-type constructor (i.e. Number())
 * synchronous call-back functions
 
-Link To Site
+# Link To Site
 
 https://etch-a-sketch-cj.netlify.app/
