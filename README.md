@@ -9,3 +9,7 @@ Once a board size is chosen, howver over the board with your cursor to change ce
 * Built in Javascript Math library
 * Data-type constructor (i.e. Number())
 * synchronous call-back functions
+
+Link To Site
+
+https://etch-a-sketch-cj.netlify.app/
